@@ -55,7 +55,7 @@ public class Main {
     }
 
     private static void removeTransaction(Scanner sc, Summary summary) throws ParseException {
-        System.out.println("Enter month in format " + "\"March 2020\"");
+        System.out.println("Enter month in format " + "\"May 2021\"");
         String date = scanner.nextLine();
         System.out.println("Enter transaction number:-");
         int transactionNo = sc.nextInt();
@@ -75,7 +75,7 @@ public class Main {
     }
 
     private static void editTransaction(Scanner sc, Summary summary) throws ParseException {
-        System.out.println("Enter month in format " + "\"March 2020\"");
+        System.out.println("Enter month in format " + "\"May 2021\"");
         String date = scanner.nextLine();
         System.out.println("Enter transaction number:-");
         int transactionNo = sc.nextInt();
